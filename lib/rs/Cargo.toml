@@ -6,3 +6,5 @@ authors = ["Simon Génier <s@simon.coffee>", "Maxim Golov <maxim.golov@gmail.com
 
 [dependencies]
 podio = "0.1"
+hyper = "0.5"
+httparse = "0.1"

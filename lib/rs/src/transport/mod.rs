@@ -20,6 +20,7 @@
 use std::io::prelude::*;
 
 pub mod tcp_transport;
+pub mod http_transport;
 
 pub trait Transport : Write + Read { }
 

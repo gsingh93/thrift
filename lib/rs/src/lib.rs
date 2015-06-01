@@ -1,5 +1,7 @@
-#![feature(buf_stream)]
+#![feature(buf_stream, collections)]
 
+extern crate hyper;
+extern crate httparse;
 extern crate podio;
 
 pub use protocol::Protocol;
